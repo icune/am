@@ -1,0 +1,52 @@
+﻿{
+  "profiles": {
+    "AdvMusicTest": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:5120",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "LAUNCH_MODE": "SERVER",
+        "ELASTIC_URL": "http://localhost:9200"
+      }
+    },
+    "AdvMusicTest_ScriptLitRes": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "LAUNCH_MODE": "LITRES_SCRIPT",
+        "ELASTIC_URL": "http://localhost:9200"
+      }
+    },
+    "AdvMusicTest_Hangfire": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "LAUNCH_MODE": "HANGFIRE",
+        "ELASTIC_URL": "http://localhost:9200"
+      }
+    },
+    "AdvMusicTestProduction": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "http://*:5120",
+      "environmentVariables": {
+        "LAUNCH_MODE": "SERVER",
+        "ELASTIC_URL": "http://am_elasticsearch:9200"
+      }
+    },
+    "AdvMusicTest_HangfireProduction": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://*:5000",
+      "environmentVariables": {
+        "LAUNCH_MODE": "HANGFIRE",
+        "ELASTIC_URL": "http://am_elasticsearch:9200"
+      }
+    }
+  }
+}
