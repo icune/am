@@ -35,6 +35,7 @@
       "launchBrowser": false,
       "applicationUrl": "http://*:5120",
       "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
         "LAUNCH_MODE": "SERVER",
         "ELASTIC_URL": "http://am_elasticsearch:9200"
       }
